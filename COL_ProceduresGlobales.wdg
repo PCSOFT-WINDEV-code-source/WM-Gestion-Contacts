@@ -1,0 +1,153 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : COL_ProcéduresGlobales
+ major_version : 28
+ minor_version : 0
+ type : 7
+ description : ""
+ subtype : 0
+procedure_set :
+ identifier : 0x1ce5644800195e20
+ internal_properties : CAAAAAgAAABGLu41kG7fjQV3iS4F72qmnKaNh5694reolNKIW0iw
+ code_elements :
+  type_code : 31
+  p_codes : []
+  procedures :
+   -
+     name : AppelerContact
+     procedure_id : 2082180671720809996
+     type_code : 15
+     code : |1+
+      // Résumé : Procédure qui gère le fait d'appeler un contact
+      // Syntaxe :
+      //AppelerContact (<pContact> est Contact)
+      //
+      // Paramètres :
+      //	pContact (Contact) : Le contact
+      // Valeur de retour :
+      // 	Aucune
+      
+      Procédure AppelerContact(pContact est un Contact)
+      
+      // Récupération des numéros
+      Selon pContact.telephone..Occurrence
+      	CAS 0
+      		Erreur("Aucun numéro n'a encore été enregistré pour ce contact.")
+      		RETOUR
+      	CAS 1
+      		telDialerCompose(pContact.Téléphone[1]..Numéro)
+      	AUTRE CAS
+      		OuvreFenetreMobile(FEN_Appel,pContact)
+      FIN
+      
+     type : 458752
+   -
+     name : EnvoyerMail
+     procedure_id : 2082180671720875610
+     type_code : 15
+     code : |1+
+      // Résumé : Procédure qui gère l'envoi de mail
+      // Syntaxe :
+      //EnvoyerMail (<pContact> est Contact)
+      //
+      Procédure EnvoyerMail(pContact est un contact)
+      
+      // Lancement du client mail
+      Si pContact.Email..Occurrence > 0 ALORS
+      	Email.NbDestinataire = 1
+      	Email.Destinataire[1] = pContact.Email[1]..Adresse
+      	EmailLanceAppli()
+      SINON
+      	Erreur("Ce contact n'a pas d'adresse e-mail.")
+      FIN
+      
+     type : 458752
+   -
+     name : EnvoyerSMS
+     procedure_id : 2082180671720941224
+     type_code : 15
+     code : |1+
+      // Résumé : Procédure qui gère l'envoi de SMS
+      // Syntaxe :
+      //EnvoyerSMS (<pContact> est Contact)
+      //
+      // Paramètres :
+      //	pContact (Contact) : Le contact
+      // Valeur de retour :
+      // 	Aucune
+      //
+      Procédure EnvoyerSMS(pContact est un contact)
+      
+      //Ouverture de la fenêtre d'envoi de SMS en lui passant en paramètre le contact sélectionné dans la liste
+      OuvreFenetreMobile(FEN_EnvoiSMS, pContact)
+      
+      
+     type : 458752
+   -
+     name : ModifierContact
+     procedure_id : 2082180671721006854
+     type_code : 15
+     code : |1+
+      // Résumé : Procédure qui gère la demande de modification d'un contact
+      // Syntaxe :
+      //ModifierContact (<pContact> est Contact)
+      //
+      // Paramètres :
+      //	pContact (Contact) : Le contact
+      // Valeur de retour :
+      // 	Aucune
+      //
+      Procédure ModifierContact(pContact est un contact)
+      
+      // Ouverture en édition de la fiche du contact
+      ContactEdite(pContact)
+      
+      
+     type : 458752
+   -
+     name : SupprimerContact
+     procedure_id : 2082180671721072468
+     type_code : 15
+     code : |1+
+      // Résumé : procédure qui gère la suppression d'un contact
+      // Syntaxe :
+      //SupprimerContact (<pContact> est Contact)
+      //
+      // Paramètres :
+      //	pContact (Contact) : Le contact
+      // Valeur de retour :
+      // 	Aucune
+      //
+      Procédure SupprimerContact(pContact est un contact)
+      
+      //1 : &Supprimer
+      //2 : &Ne pas supprimer
+      SELON OuiNon(Non,ChaîneConstruit( "Confirmez-vous la suppression du contact '%1' ?",pContact.Nom + " " + pContact.Prénom ))
+      
+      	// &Supprimer
+      	CAS Oui :
+      		ContactSupprime(pContact)
+      		
+      	// &Ne pas supprimer
+      	CAS Non :
+      		//On ne fait rien
+      FIN
+      
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : COL_ProcéduresGlobales1
+resources :
+ string_res :
+  identifier : 0x1ce5644800185e20
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+  strings :
+   -
+     text :
+      fr-FR : Erreur lors du lancement du client mail.
+     index : 0
+custom_note :
+ internal_properties : CAAAAAgAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ

@@ -1,0 +1,267 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_EnvoiSMS
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_EnvoiSMS
+ identifier : 0x2ce54d0a02d5942c
+ internal_properties : CAAAAAgAAACvEUcj2ulJViQ1t+8DU+7IHAOvgIINVRPBA8zDBSJjM/oClwRVfoRG7gQritvDnlNGioF4RRNDVVyJ55DUfVAM5swqadWPtrTZvTUza2JaeUFOebu4wqZfJHIGN2GR5ys+DnRmQz2Hizq5T7oZMpLLrMpHTDcQS2aE5swF8IJYwHGEjzvM8oyBH2huTxEwSUz9F2UZSSaBElyRTikbGZ6YM4E7wg96h0gxk5FFK1b3Z0J6t1hs268EhWYVGlgUsKFUkVJonit3jdw1b1OUH76wCwCLoEXxk1edTctUK1NYXwdu1cLqE2Ek10OoGyncWVhbGEkJEW7uFvD4XYWJAa0TIhlQfMDEMiXcVX5FV7pIlNDGNXKandx9KuyvVOKkId3N+BsikN/pnbvSTK62HA+iRDCaYq4ayZLrDVHP/6LomJ9PWyWZR0kHA1WfCRsTjgwvIRsHXRK/KZNl+4iJP1sL1auZukJWiS2G671sDIScuE503sW2eJparn2Tr+s22EgexKR8lfgD7AT52HJyJ3kGvUMd7AHiu499tzn517etr+5HPgNhETKX2w50l5kzFsYuh2I4dYRpa2m5rB5VdqQnz60CppT5jyn/zTHcP8Xam1dx23oW1sOh4Ty6xt9fZrbWHSsA7pK/i+cprWYpBG9Np97uSL1wIIsp86YITLJ9WmYgbhUUrBvnS5MRFgpelNWsLqLfJNjKGgNKdFKKNqWVDitkv1mktkzBPrZ9+02ZobtFJz8LF16LZthB9NC+np5ang==
+ properties :
+  width : 320
+  height : 407
+  heightMin : 471
+ controls :
+  -
+    name : COMBO_Numéros
+    identifier : 0x2ce54d1b02ddd985
+    internal_properties : CAAAAAgAAAC+25nF8sUw+o6bInbVxD12GBzL/lN5rh8zf/oPVQdDbkYcZoV3W2WbdSWvXKxwVp/6nkEgrh6lBfnWBDyjZhwXYvbZxqLnp7JxpcUdqXXvc7wQSjRmtKZ7u027CUpMsZTpu4kaspB3YQwbbLUb9gi0Qs97V4rRL+4xVUevZuGQo10dIrpCV451RdGqBLab2ZsVeFImiU3VozWEMHEm2xBlLYaJwyStnjjs+bwR5wS2cSF/9uzN5xmV6So5PQAMhq1nOtgEpP46j20669IrvbYrR7h7VhDUQqTmBTlmkMTgnDgZUfwENhF7/H3ffNZFwMaIJlD3l/m8kY5RMvrX0vNi1KGv23RMM6g/IgaU/H1F/a5N+VydMtZVnIXA6ivZGdCCKUEFXpcd+PbAoJTuMJsgi+I+BQzRf5A3DJhjYmCPJUIDCbbAOtgwOhR05Vmx4wROAN1YWsXznuZ1dRMbVfLK4ZQB7tzruq+ZzSuXaXgW/UjsV9VDRK5lxhcjVgngFLV64uBLfMCD/7sdWLm/+5Syn3DwGwHErDacq61hWKFrzQg2ZORcHlVU+0Nbrnx9CC1NHfXMtGyGunWOiUl7vjg/kL/hPgemCTk8cpvr7xcd8l2T62Z5AYHbFOHp4CZHkBPzCPPo5PnN7986xK60b2Lr5jE7NT7dDhn23LDl2uD9lX26OW36vQnS/BR510jNLGffoFPB4dLbLEDOROIqcGsIYzIvVOEvs4LvRCXC8TJ5J8nIl4LeSWbiHvWillXW9xtOliS+yp8da5/fcUoA4hgIafhrmDho/iZqVsQhr8ZYGiSpUf3Q1vmmZ6CPBy0VVlqYpEf7cvHmXJ/gtZ32igUdo5TodTfYuVXd9O2oEZ18/AgSjqPWqTjNvFpGHPbMDWId00AI49bOuvvpGppmhwgOBE2h0D9kCcCZEH33Z87k1HXmEbn5PcBKK87u9v1FUjqAAh7Mqzm258NGwkSvOYW6ksbgnAOJti0vBG1YMDz/xDbkcIdA/Tb+npWYhFHwEUBXWUagn7pKOYCX0irPFCp6G50UrEnr40JefnW8w3WXXMeNdl2Gokpj3kmih13GeCH3FFCTVRXUHe019bWENBqYVdVtfVfKXCL8LnFPc0ZDfdKmBdnsvZBd6sYkLerv0H7P+4Mm6HQK63TjUEpn19bjjOfaKQkK7IKOCb4ss1Bmq7vU5ppWWOMkZO7ZCuy+Da5cqDsz5Z8fER1g8vi24xCBm3W9RJLMycHLf/GfrF8p1mUQkMBTvgtB6+nvE890A/fgJKUejbdo6ZEblLHzWi07n7btsnuxAgZeHppyTzjPvMAOvWhlDttL61xkBNSHbU+dHCCb7LaGAYGqmYriWvSu/Un1wGcKEucB0eP337yYzFw9T/5nZeEse0OBO+fgZc8GAaORh+/Wus55Vf83lp8SaYsdp9P2ekqeK9OnSAFYTKEz1xmbbjBC7zojKvU1mMF0vOvmoX18p8gzT4fwBCWo2J8rfjKLF433nQqHGgESQiYWzIoRiwk1SD1zMPqjCaz4/Dt4XGEyDP0a7PnGPNUZ7x5QUUE6stN89zzb4w5FGjQe4P2hPAxwzK+NmLIi+ixV+k6fnAQ9EhUoQ71jPrPb9I8JzUtyB3BlcJZXWaQYC68epTlymAwDv1+C2qvKU4YThvf6DNRpyOfOvdoyw2YFYkUkqGLRuSZaM+UbQHdB2MKiqFBfZm36x0oqywSLDGgJ6ed69koKnQ95LVW+hV0XS5+5HoWZBz4aF2x+I+z25TeTsfwRGZuk7nHqqu+pq94XzBKzK3cyM4axvQ==
+    properties :
+     x : 16
+     y : 16
+     width : 288
+     height : 52
+    dropdown :
+     internal_properties : CAAAAAgAAACVJn8iv9gAKwponh3HCNK/OaWqlTDj+XzYvqdebGOH9m6dbz3FQuPAULrCy5vmUF9KzQ7I+WP25kHL2KqZjC8jeT2IidHYt07LA3inSBHm2c/XlAv/E1wKIOHZRv+ARtW2sqPFopD2sdQykPbCuB550A3lzFOdDk87O0LZg1u8Ug7AuN8fcnm9TSWlgzRSle4++1voBXGHDvUsVWIDfvfCxEh6DFuF72PSILFmuE6ZX4C6dM2hfNITuIvWYE0H9GHCt0HdN7Sd1TXbgP5+/aMf5e1MUYtZbtmdRnRz21F39v8F+uZCfXvgsn0P2PJc3hqhEpdbixgva3xR3988iFzSi/0q2AxqNwV1RKmm+uJlAoWyAfS/GmvdnC8R2OHVyX6kELzRTRZ1d/GDLhOwlmVcyJKmyljOvZabnGnRFg4fqH3/oF3o8yAcQexHQSYtV3geC6sda5xN1zfBcDAI0ke6/tgdFudAodeT4W3GezrKlJaL1htJos6jBw+uKm2NGxZp8eWhWRHohM4S7XZE8Q2fm+kPV1vnzsULp8o9+AJ8E7zEjiJE3axB4DeWfMQLzqpEoFmCGudG07mYx5pVi0gLSYJma1djPAH3d0VajTHx3E45yRZUK7E74msjCDxPuQmHnSt+sz/2c70xn6XWGJYN3P3YvIy2f6AK8JvRC4Ixymzj0ZRxM3eLGyeSPjnJt0AQ89YTVWeH4AJrFY1weMI=
+     type : 7
+    type : 14
+    code_elements :
+     type_code : 23
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        type : 35
+        enabled : false
+      -
+        type : 17
+        enabled : false
+  -
+    name : LIB_NbCaractRestant
+    identifier : 0x2ce54d1c02dfd9a4
+    internal_properties : CAAAAAgAAAB8BG9kzYnBOURmk4RA9N9OJI2OmMuEP5nKo1SDztH3c+oYMPqJbg23p6oevFQvfQ0V9BuqJwzusUC32+lFWMSLFsgjYcwXGGoQZno/3bB3Woghz0VqpJfDuikyj828SkKwrJnL1qNgOVy0WFn+KEpsJaZWPGyQsf4qkCiNrtknASU+bs2q3+1WREDQXtihTXo9oA51iDirAD0JUKtmay/17bP+LY9vcKIzejGU2zndS1S1xQDB7QFcDKFUmdeIdBNhGlNVgqMrnuhcQ/3YqT5jX5s8rCHQIfPOl1x1StVlGuMMgWLRG1VV2MCmLdLJ8HkbVIgI6CY41ryL/cN7iDTVWEjU1RRGjP3NSPnxEtTHlfAnJztuxGw7jVcGajJ+5WibiFL4aXHJUh9uaiOP7u7WcCZjdP1qsqemQIQ11nAkV2Ppg36orwBM3cGvCYslBO5oWeHsBIgBqwJiYPU0SVbBt3wz9HmZfpL/oqSTNnmbTIZt/Q==
+    properties :
+     x : 16
+     y : 77
+     width : 288
+     height : 22
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : SAI_MESSAGE
+    identifier : 0x2ce54d1c02e1d9a4
+    internal_properties : CAAAAAgAAAAK9my0ISeUo6prqGTCDZiqVJMIRGyl1aHw9uzdwgLHWEK7+kpa5XBC2Y4JM5wWKtd8YzZQ7Zx9Ekbupc7EXi/AOgxG7jRSXISOsmTm+2rfA4Hi/FppiqcgtqAd8BKlK92BZlpUih+FcnJ7Vad1/6+Tsu4TOGdxReZs19LCR6T5I8owpah2S3cSDUBtMwCY6KmRMjEgJmMGrqNNcXn878JuIRMhBsz71SuJDzoojPYA0n5e3tdWgcHM7iTcaGf5x+2LJ8tn73avAVqoadDpiCOD4FbKrhEB6rrejFIeveZIanygkyHMO1i1zMcgPqlt3dB4b3wM0E0/WD5r3sUFQhA9zzb9edasFemrZyfoHLpVFj9Hq9E6SKE2IjbCsiTbfby0ZB6ahZUhwUlPwkqbzHCHKmH/THqIWAusGuZ5wMlSpun0OSGWC+PgFLYuhYe7RUz3sKj/joCC3TQ5SjayyBWnXV/DqNhKRNQzz/Kyk6ZBQbYVmpHhA+ZQxEzZLvaDWvqjohReutvP9qrLdl7bd2Bg12eNKNAuEH5Jcdwljg5YPd5V1I6jVXEMaXhVg9jumRENCyzeoUQ0FFV2pcBP6U4cnH/EHWmTcX4cllgQUf1Igazf4tDR6FxKOa+ACielUkwGjHReCmr0xfmPWqWcy37g4oPYrdwqfTK8QVOWQMgFgWyjtgdllblg21kvr4aQZSt6bOXp97f5+NjT7loLVutT3ctIqCJTal+1C4RJabXEx1XrypFb3jxRTQkZUJQRDi6/1WRsO82VxQW6BrtR+zBJ9pyU4LF50TEUOKlfPx5Y6nNQZnx2VAmnzN8WBXOGgXUWa4AhCdWuDusMZBh8vgTD68Ecr+I0lt5yJKzBw+LvFHMOdFwhI00mlbZ5VGmOxB1/vGbPiTxF3dPfVJobNS6BsFzqeLeVzy+vyWJlu6JnI5Kare6fL3ynnCBtj2jFhnYOEQT1atrHa/5XTQg6v/NZApGWTfexD28wlo1L1z9PeH1tqlLIJQ9/zKtPNZWkEAJOb833Tz3Xwy+it8JALWLIYba7o1UOUOkmRiBF2U3Irv+drhOuN/qC+EWbKvJDrspjfm0TRv+wT3Q7VQgSigDlNEEt4XRQ+68Zp/QcKQttyf2KwLPeaqom135Rr96d7FnqkkpzLmLgirlzrx2vt4y1PHOoh/DnwrWV8aVcbKNPgmC5y/HaudyPWB49u0YB3wyIq2pu5bSdn8pcCj4QYRV3gnklolH0KIbYSVWzjaikBwY=
+    properties :
+     x : 16
+     y : 100
+     width : 288
+     height : 231
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        code : |1-
+         
+         //On affiche le nombre de caractères auquel l'utilisateur a encore droit 
+         LIB_NbCaractRestant = 160 - taille(moimeme) + " caractères restants"
+        type : 17
+  -
+    name : BTN_Envoyer
+    identifier : 0x2ce54d1e0312e41f
+    internal_properties : CAAAAAgAAABeiFztA4HPFhEyARb68M0mg7Y6mfm+b6tO20haq3cfOAn4vuo74qicQhcThSA7RtMG/LihlvhSp6FDUIRyqePVttXGGbnD5bWklClS3JFTOJ4EkXPjJMN4paoFKA9PLeXTesdR59/nb3LLi+lFsg+lYF06H6EGFe4pFHsN/lFIEkKjHXq3dGZB63TNwltQpVf2+SlbkrWfDNoTogxbhHrJZsfn+FATsgzO7A3eRBmFqHlrK/yixrG7SdhtxCBKkNTNg5rJ3Mj9d/Pw2hSY0ek+ZXCRWIFwR3xjBQxaHDZnymRAXP6DUVzQgvin9ngX1o0GkpUFdsoU7RMegvjPtNzF+mrNAwvWonVKQlQnt2rFPhdkI9FfxHjCFR/cXYg9fvx7rxgPp+bBBTasxs95tPFMyQAK+ZIARKkiFKgSBVgIwNJ0WHIMlSSjYcNnp9iRaD0gEcb2pK9pZS7H3XdOQXfNoT6Sa8e5gzz3K0vdK6kNbCXKrEPHdsMZDK9quZCtzvONdlehaiueFbA9dj1591CNCYLgiXwga+2Dp3Gf+MVg4mlHFQz/bFg1ewKm7IraIfKM8i9ifGy+8jdjOPTGSpWp8YRsb98RCP59q5RNo+7m1DzNuPV+Hk3wDQ0Ur37/A2GGRxWVVd5MPlajcs1J5ygstsBFpNYatLyQUY9YLpSSYWhtIcx4lbzMxEP7xj/bzWBOXDoCoH+xdegD+JnJbx+ekduf4B0y4/PYRIV0FupikVTYBdxnvoGCzKHCbWcRVUDFH6XYsKLG6L2NaeKfHXUAWwqFTr7fZjovVCvUGKVXF4CmuZRVOd/QasFCbTFhKiwedBXU0LzDGtU4sPz5T6SasErLzk538JoM+k+faWUPQYdazGfRqdyLG5ZZwyPN3RVQhhN4LyA+FR5AQs6lB2SswtWVkQZFtzckeuNMIVdHJWVVs93AOKa5NG2IFw==
+    properties :
+     x : 16
+     y : 344
+     width : 288
+     height : 48
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAADn0eYtjZt1cnsAGy5YYwDZv+FEUDgR4yfTPi/EJDFnx4UoLoxrdEnhbC+f0PRCRS7j3vK8wDhwovgnrhPCjmyOJ8/yAd/Cvq6OCDiS+ADG1CUndmlM2QytugqbYmEHtR4fU82/vFhexogq24A=
+        code : |1+
+         
+         SI COMBO_Numéros = "" ALORS
+         	Erreur("Vous devez saisir un numéro de téléphone.")
+         	retour
+         	
+         SINON
+         	TitreSuivant("Envoi du SMS en cours...")
+         	
+         	//Remise à 0 de tous les membres de la structure Email
+         	SMSRAZ()
+         	
+         	SMS.Message = SAI_MESSAGE
+         	SMS.Numéro = COMBO_Numéros[COMBO_Numéros]
+         	
+         	//Envoi du SMS
+         
+         <SI CibleExécution=Android>
+         		
+         		SI PAS SMSEnvoie() ALORS
+         			Sablier(Faux)
+         			Erreur("Cet SMS n'a pas pu être envoyé.")
+         		SINON
+         			Sablier(Faux)
+         			ToastAffiche("Le SMS a bien été envoyé.")
+         			Ferme()
+         		FIN
+         	
+         <SINON SI CibleExécution=iOS>
+         	
+         	
+         	SMSLanceAppli()
+         	ferme()
+         	
+         <FIN>
+         
+         	
+         	
+         	
+         	
+         FIN
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+ actionbar :
+  name : ACTB_ActionBar
+  identifier : 0x2582942a3d1a1d72
+  internal_properties : CAAAAAgAAAAsiqc+BVouVWWY1qnX5u7OdwDbkq29nlhwyQq7YVngVtNpspcDXms2wEn+PedwBwG+z/KtSJRr+wnw7XbHtp68SHPOA2Xjn8AbcEEt0ctwV0ZR/dBtMpLAEqpL4WBlsyjy2fy+e+ntuUZ2sdw37RvOPFFXqtFt1EXSLUWbVzumXd8aPIV3UHzT0imbgQnE8W8Pj/ihlCmTCez8+8X2zJY9/QPdeo+qpncwclRvJi8UQRKjQPPYoCVDC8yjjJiw9+MVbeYVXq4yvF5xgiQbdWi/ykiqWZDlP0vJ/sgHkl9cAlcI//syR5ZvReG326yWQTk/VniFKsbUTEmf+rViv8lqaeTgP2pukJa+MoDoYvrxF18PUtWvlA4Zr5a5ET4JXJuAVXqwZJckzuQ=
+  controls : []
+  code_elements :
+   type_code : 125
+   p_codes :
+    -
+      type : 229
+      enabled : false
+    -
+      type : 239
+      enabled : false
+    -
+      type : 240
+      enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x2a2505a900438be8
+  internal_properties : CAAAAAgAAAByVTsSr3/syDi1St8xf8fgHxdhV816G1q5zyODGkOm1npuSkYo5g/jXWoWFFK2H3oUBZtHLsT5rfRCnVFNNS0taWG501M84VhyiY2gqfWqbb5TaLNBc7/5X5PbRqVlZ5a3p7SznWjoHPbzt8FGrVw2pkxQ2AMTSCoEquPAoSRRZmCgf0llwPSIdkz+fkQsa3yCb/aARC1IuAmTNbEAkdknQHeBdhsRIWlMefD05RVbqvlMGzysSB4KUPZWTHHaQPB4ObHU/5KQ/VjN8jyQaoRgKuGxrJ5V23KTuMr/Zw==
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAAAAN6TGHZFvIZNuzsgnNSVIrNA8yr9WbnCG+oDr2lgZ+zU290WKFNsf/RE2zfBdz4qkoETPjG45LbFgOh8610IbEna5I7qnjOpRdZ3drpH5fuKDw/4wM76jiMlB
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      
+      PROCEDURE FEN_EnvoiSMS( gContact est un contact )
+   -
+     code : |1+
+      
+      
+      RemplitNumérosSelonContact()
+     type : 34
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1+
+      
+      
+     type : 2
+   -
+     code : |1+
+      
+      
+     type : 11
+   -
+     code : |1+
+      
+      
+     type : 12
+   -
+     code : |1+
+      
+      
+     type : 17
+   -
+     code : |1+
+      
+      
+     type : 13
+  procedures :
+   -
+     name : RemplitNumérosSelonContact
+     procedure_id : 2082155537571781929
+     type_code : 14
+     code : |1+
+      // Résumé : Remplit la COMBO des numéros
+      // Syntaxe :
+      //RemplitNumérosSelonContact ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      
+      Procédure RemplitNumérosSelonContact()
+      
+      // Supprime les anciens numéros
+      ListeSupprimeTout(COMBO_Numéros)
+      
+      pour tout tTéléphone de gContact.Téléphone
+      	listeajoute(COMBO_Numéros,tTéléphone..Numéro)
+      FIN
+      
+      SI COMBO_Numéros..Occurrence > 0 ALORS
+      	COMBO_Numéros = 1
+      SINON
+      	Erreur("Ce contact n'a pas de numéro de téléphone.")
+      	ferme()
+      FIN
+      
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAADeQcze1Ixqfwn6yOfjwsQ7IKxuiqMzbTygTLeVXFH8DB0WqXgSKvkzRoO0/Z27dfrh8D+BLYmMenjdtZezotw6hJf2mE4Gv6OctA==
+  original_name : FEN_Fenêtre1
+resources :
+ string_res :
+  identifier : 0x1fbce1b101c142f8
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe
